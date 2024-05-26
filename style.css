@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Aptos;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+   }
+.left-container{
+    border: 6px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 3rem;
+}
+.left-container > h1{
+    color: black;
+}
+.left-container > .product{
+    background-color: gray;
+    padding:0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color:whitesmoke;
+}
+.left-container > .product >.button button{
+    padding: 0.1rem 0.4rem;
+    font-size: 1rem;
+    border: 3px solid gray;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.left-container > .product >.button span{
+    padding: 0.1rem 0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.left-container > .product >.button >button:hover{
+    cursor: pointer;
+}
+
+.right-container{
+    width: 15rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border: 8px solid gray;
+    padding: 0.5rem 3rem;
+    border: 6px solid gray;
+    color: rgb(186, 177, 177);
+    text-align: center;
+}
+.right-container>.cart{
+    color: black;
+}
+.right-container >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.right-container >div>span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
